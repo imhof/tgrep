@@ -64,7 +64,7 @@ def main():
 
     for line in fileinput.input(args):
 
-        if line[0] !=' ':    # if begin of new paragraph
+        if line[0] != ' ':    # if begin of new paragraph
             if output == 1:      # eventually print last paragraph and reset paraarray
                 while n < len(para):
                     print para[n],
